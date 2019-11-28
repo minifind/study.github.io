@@ -15,7 +15,7 @@ function draw() {
   context.fillStyle = "rgba(0,0,0,0.05)";
   context.fillRect(0, 0, W, H);
   context.font = "400 " + fontSize + "px 宋体";
-  context.fillStyle = "lime";
+  context.fillStyle = "pink";
   for (var i = 0; i < colunms; i++) {
     var index = Math.floor(Math.random() * str.length);
     var x = i * fontSize;
